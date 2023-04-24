@@ -71,4 +71,6 @@ const About = () => {
 }
 
 export default AppWrap(
-  MotionWrap(About, 'app__about'), 'about', 'app__whitebg');
+  MotionWrap(About, 'app__about'), 'about', 'app__color1bg');
+// export default AppWrap(
+//   MotionWrap(About, 'app__about'), 'about', 'app__whitebg');

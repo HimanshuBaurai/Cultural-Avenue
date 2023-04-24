@@ -49,6 +49,17 @@ import about2 from '../assets/about2.mp4'
 import about3 from '../assets/about3.mp4'
 import about4 from '../assets/about4.mp4'
 
+import japan from '../assets/japan.mp3';
+import China from '../assets/China.mp3';
+import Russia from '../assets/Russia.mp3';
+import Argentina from '../assets/Argentina.mp3';
+
+import sakura_sakura from '../assets/sakura-sakura.jpg';
+import La_cumparsita from '../assets/La_cumparsita.jpg';
+import Edith_Piaf from '../assets/Edith_Piaf_La_Vie_en_rose.png';
+import download from '../assets/download.jpg';
+
+
 export default {
     email,
     mobile,
@@ -94,5 +105,13 @@ export default {
     about2,
     about3,
     about4,
-    globe_png
+    globe_png,
+    japan,
+    Russia,
+    China,
+    Argentina,
+    sakura_sakura,
+    La_cumparsita,
+    Edith_Piaf,
+    download
 };

@@ -24,6 +24,10 @@ code {
   --gray-color: #6b7688;
   --brown-color: #46364a;
   --white-color: #ffffff;
+  --color1: #A8D8EA;
+  --color2: #AA96DA;
+  --color3: #FCBAD3;
+  --color4: #FFFFD2;
 }
 
 * {

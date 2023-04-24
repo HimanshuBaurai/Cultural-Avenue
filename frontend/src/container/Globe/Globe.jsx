@@ -35,4 +35,6 @@ const Globe = () => {
 }
 
 export default AppWrap(
-  MotionWrap(Globe, 'globe'), 'globe', 'app__primarybg');
+  MotionWrap(Globe, 'globe'), 'globe', 'app__color2bg');
+// export default AppWrap(
+//   MotionWrap(Globe, 'globe'), 'globe', 'app__primarybg');

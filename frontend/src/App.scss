@@ -15,6 +15,22 @@
     background-color: var(--gray-color);
 }
 
+.app__color1bg {
+    background-color: var(--color1);
+}
+
+.app__color2bg {
+    background-color: var(--color2);
+}
+
+.app__color3bg {
+    background-color: var(--color3);
+}
+
+.app__color4bg {
+    background-color: var(--color4);
+}
+
 .app__container {
     width: 100%;
     min-height: 100vh;
@@ -31,7 +47,7 @@
 
 .app__wrapper {
     flex: 1;
-    width: 100%; 
+    width: 100%;
     flex-direction: column;
     padding: 4rem 2rem;
 

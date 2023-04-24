@@ -5,6 +5,7 @@ import About from './container/About/About';
 import Globe from './container/Globe/Globe';
 import Explore from './container/Explore/Explore';
 import Blogs from './container/Blogs/Blogs';
+import Footer from './container/Footer/Footer';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <About />
       <Globe />
       <Explore />
-      <Blogs />
+      {/* <Blogs /> */}
+      <Footer/>
     </div>
   );
 }
