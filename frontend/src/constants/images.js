@@ -43,6 +43,10 @@ import arabesque from '../assets/arabesque.png';
 import bg from '../assets/5333978.jpg';
 
 import G20_video from '../assets/G20_video.mp4';
+import about1 from '../assets/about1.mp4'
+import about2 from '../assets/about2.mp4'
+import about3 from '../assets/about3.mp4'
+import about4 from '../assets/about4.mp4'
 
 export default {
     email,
@@ -84,5 +88,9 @@ export default {
     logoG20,
     arabesque,
     bg,
-    G20_video
+    G20_video,
+    about1,
+    about2,
+    about3,
+    about4
 };

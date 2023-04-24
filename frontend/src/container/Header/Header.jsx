@@ -21,7 +21,7 @@ const Header = () => {
                                 .typeString("Welcome to our cultural oasis,\n where the unique voices and visions of the G20 nations come together in harmony.")
                                 .pauseFor(1000)
                                 .deleteAll()
-                                .typeString("Add more text")
+                                // .typeString("Add more text")
                                 .start();
                         }}
                     />
