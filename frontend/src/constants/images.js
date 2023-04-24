@@ -42,6 +42,8 @@ import HimanshuPicBGremove from '../assets/HimanshuPicBGremove.png';
 import arabesque from '../assets/arabesque.png';
 import bg from '../assets/5333978.jpg';
 
+import G20_video from '../assets/G20_video.mp4';
+
 export default {
     email,
     mobile,
@@ -81,5 +83,6 @@ export default {
     HimanshuPicBGremove,
     logoG20,
     arabesque,
-    bg
+    bg,
+    G20_video
 };
