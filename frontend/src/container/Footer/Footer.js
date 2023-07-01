@@ -1,9 +1,6 @@
 import React from 'react'
-// import playStore from '../../../images/google-play-png-logo.png'
-// import appStore from '../../../images/app-store-png-logo-33112.png'
 import { images } from '../../constants';
 import './Footer.scss';
-import { AppWrap,MotionWrap } from '../../wrapper'; 
 
 const Footer = () => {
     return (
@@ -11,9 +8,9 @@ const Footer = () => {
             <div className='leftFooter'>
                 <h4>G20</h4>
                 <p>Where the world's largest economies come together to discuss global issues and shape the future of the global economy</p>
-                <img src={images.logoG20} />
-                {/* <img src={playStore} alt='playStore' />
-                <img src={appStore} alt='appStore' /> */}
+                <a href='https://www.g20.org/en/'>
+                    <img src={images.logoG20} />
+                </a>
             </div>
             <div className='midFooter'>
                 <h1>Code Commandoes Team</h1>
@@ -22,9 +19,9 @@ const Footer = () => {
             </div>
             <div className='rightFooter'>
                 <h4>Follow us on</h4>
-                <a href='#'>Instagram</a>
-                <a href='#'>Facebook</a>
-                <a href='#'>Twitter</a>
+                <a href="https://www.instagram.com/himanshu_baurai?r=nametag">Instagram</a>
+                <a href='https://www.facebook.com/'>Facebook</a>
+                <a href='https://twitter.com/'>Twitter</a>
             </div>
         </footer>
     )

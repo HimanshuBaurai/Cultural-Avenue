@@ -17,40 +17,43 @@ const Explore = () => {
           whileHover={{ scale: 1.1 }}
           transition={{ duration: 0.5, type: 'tween' }}
           className='app__profile-item'
-        >
-          <MediaControlCard image='https://www.echinesesong.com/wp-content/uploads/2018/07/Mo-Li-Hua-%E8%8C%89%E8%8E%89%E8%8A%B1-Jasmine-Flower-Lyrics-%E6%AD%8C%E8%A9%9E-With-Pinyin-By-Chinese-Children.jpg' title='China: "Jasmine Flower"' audioPath={images.China} />
-          <h2 className='bold-text' style={{ marginTop: 20 }}>Dressing the G20</h2>
-          <p className='p-text' style={{ marginTop: 10 }}>A Journey Through Culture and Tradition" - Immerse yourself in the diverse cultures and traditions of the G20 nations through their beautiful and distinctive attire.</p>
+        > 
+            <MediaControlCard image_='https://enjoyshanghai.com/wp-content/uploads/2020/10/5c6637ddca3b5.image-1.jpg' title='China' audioPath={images.China} />
+            <h2 className='bold-text' style={{ marginTop: 20 }}>"Jasmine Flower"</h2>
+            <p className='p-text' style={{ marginTop: 10 }}>"Jasmine Flower" is a popular Chinese folk song known as "Mò Li Huā" in Mandarin.The lyrics of the song describe the beauty and fragrance of the jasmine flower, which is often associated with purity and elegance in Chinese culture.</p>
         </motion.div>
+
         <motion.div
           whileInView={{ opacity: 1 }}
           whileHover={{ scale: 1.1 }}
           transition={{ duration: 0.5, type: 'tween' }}
           className='app__profile-item'
         >
-          <MediaControlCard image='https://www.echinesesong.com/wp-content/uploads/2018/07/Mo-Li-Hua-%E8%8C%89%E8%8E%89%E8%8A%B1-Jasmine-Flower-Lyrics-%E6%AD%8C%E8%A9%9E-With-Pinyin-By-Chinese-Children.jpg' title='China: "Jasmine Flower"' audioPath={images.China} />
-          <h2 className='bold-text' style={{ marginTop: 20 }}>Dressing the G20</h2>
-          <p className='p-text' style={{ marginTop: 10 }}>A Journey Through Culture and Tradition" - Immerse yourself in the diverse cultures and traditions of the G20 nations through their beautiful and distinctive attire.</p>
+          <MediaControlCard image_='https://www.visitargentina.net/wp-content/uploads/2014/12/Music-in-Argentina.jpg' title='Argentina' audioPath={images.Argentina} />
+          <h2 className='bold-text' style={{ marginTop: 20 }}>"Gracias a la vida"</h2>
+          <p className='p-text' style={{ marginTop: 10 }}>Argentina has a rich tradition of folk music known as "folklore argentino." This genre encompasses various musical styles and rhythms that reflect the country's diverse cultural heritage. These songs often depict themes of rural life, nature, love, and social issues.</p>
         </motion.div>
+
         <motion.div
           whileInView={{ opacity: 1 }}
           whileHover={{ scale: 1.1 }}
           transition={{ duration: 0.5, type: 'tween' }}
           className='app__profile-item'
         >
-          <MediaControlCard image='https://www.echinesesong.com/wp-content/uploads/2018/07/Mo-Li-Hua-%E8%8C%89%E8%8E%89%E8%8A%B1-Jasmine-Flower-Lyrics-%E6%AD%8C%E8%A9%9E-With-Pinyin-By-Chinese-Children.jpg' title='China: "Jasmine Flower"' audioPath={images.China} />
-          <h2 className='bold-text' style={{ marginTop: 20 }}>Dressing the G20</h2>
-          <p className='p-text' style={{ marginTop: 10 }}>A Journey Through Culture and Tradition" - Immerse yourself in the diverse cultures and traditions of the G20 nations through their beautiful and distinctive attire.</p>
+          <MediaControlCard image_='https://image.slidesharecdn.com/cksc-sakuragrade8-161016183720/85/sakura-sakura-cherry-blossoms-japanese-folk-song-for-grade-8-mapeh-music-class-1-638.jpg?cb=1666148713' title='Japan' audioPath={images.japan} />
+          <h2 className='bold-text' style={{ marginTop: 20 }}>"Sakura"</h2>
+          <p className='p-text' style={{ marginTop: 10 }}>"Sakura" is a traditional Japanese folk song that is deeply rooted in Japanese culture. It is also known as "Sakura Sakura" or "Cherry Blossoms" in English. The song is associated with the beauty and ephemeral nature of cherry blossoms, which hold great symbolism in Japanese traditions.</p>
         </motion.div>
+
         <motion.div
           whileInView={{ opacity: 1 }}
           whileHover={{ scale: 1.1 }}
           transition={{ duration: 0.5, type: 'tween' }}
           className='app__profile-item'
         >
-          <MediaControlCard image='https://www.echinesesong.com/wp-content/uploads/2018/07/Mo-Li-Hua-%E8%8C%89%E8%8E%89%E8%8A%B1-Jasmine-Flower-Lyrics-%E6%AD%8C%E8%A9%9E-With-Pinyin-By-Chinese-Children.jpg' title='China: "Jasmine Flower"' audioPath={images.China} />
-          <h2 className='bold-text' style={{ marginTop: 20 }}>Dressing the G20</h2>
-          <p className='p-text' style={{ marginTop: 10 }}>A Journey Through Culture and Tradition" - Immerse yourself in the diverse cultures and traditions of the G20 nations through their beautiful and distinctive attire.</p>
+          <MediaControlCard image_='https://mf.b37mrtl.ru/rbthmedia/images/2020.04/original/5e878b3585600a78055d80e6.jpg' title='Russia' audioPath={images.Russia} />
+          <h2 className='bold-text' style={{ marginTop: 20 }}>"Kalinka"</h2>
+          <p className='p-text' style={{ marginTop: 10 }}>"Kalinka" is a well-known Russian folk song that has gained international recognition. The song's title, "Kalinka," is derived from the Russian word for the snowball tree (Viburnum opulus), which is commonly found in Russia. The song's lyrics depict a joyful celebration and express admiration for the beauty of the kalinka berries.</p>
         </motion.div>
 
       </div>

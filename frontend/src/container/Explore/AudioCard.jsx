@@ -4,8 +4,8 @@ import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
+import IconButton from '@mui/material/IconButton';
 import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import SkipNextIcon from '@mui/icons-material/SkipNext';
@@ -19,7 +19,7 @@ export default function MediaControlCard({image_, title, audioPath}) {
     return (
         <div onMouseOver={() => audio.play()} onMouseLeave={() => { audio.pause(); audio.currentTime = 0; }}>
             <Card sx={{ display: 'flex' }}>
-                <Box sx={{ display: 'flex', flexDirection: 'column' }}>
+                <Box sx={{ display: 'flex', flexDirection: 'column',width:'120px', height:'100px' }}>
                     <CardContent sx={{ flex: '1 0 auto' }}>
                         <Typography component="div" variant="h6">
                             {title}
@@ -42,9 +42,8 @@ export default function MediaControlCard({image_, title, audioPath}) {
                 </Box>
                 <CardMedia
                     component="img"
-                    sx={{ width: 151 }}
-                    image='https://www.echinesesong.com/wp-content/uploads/2018/07/Mo-Li-Hua-%E8%8C%89%E8%8E%89%E8%8A%B1-Jasmine-Flower-Lyrics-%E6%AD%8C%E8%A9%9E-With-Pinyin-By-Chinese-Children.jpg'
-                    // image={image_}
+                    sx={{ width: 120 }}
+                    image={image_}
                     alt={title}
                 />
             </Card>
